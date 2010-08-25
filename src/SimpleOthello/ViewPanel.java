@@ -5,6 +5,7 @@ package SimpleOthello;
 import java.awt.*;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 class ViewPanel extends JPanel
 {
 	private Board  _board;

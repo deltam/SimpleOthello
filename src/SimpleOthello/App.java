@@ -20,10 +20,10 @@ public class App
 		inputButton = JOptionPane.YES_OPTION;
 		while ( inputButton == JOptionPane.YES_OPTION ) {
 			gd.setLocation(300,100);
-			gd.show();
+			gd.setVisible(true);
 			while ( (g=gd.getGame()) == null )
 				;
-			gd.hide();
+			gd.setVisible(false);
 			
 			f = new ViewFrame(g);
 			f.setVisible(true);

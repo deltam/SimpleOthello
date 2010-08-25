@@ -6,6 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
+@SuppressWarnings("serial")
 class GameDialog extends JDialog implements ActionListener
 {
 	private JButton  _bStart;

@@ -2,9 +2,9 @@
 
 package SimpleOthello;
 
-import java.awt.*;
 import javax.swing.*;
 
+@SuppressWarnings("serial")
 class ViewFrame extends JFrame
 {
 	public ViewFrame()
